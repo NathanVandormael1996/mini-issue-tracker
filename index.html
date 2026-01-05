@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>NMBS: Vertragingen & Stakingen</title>
+</head>
+<body class="bg-gray-100 font-sans antialiased">
+
+<div class="max-w-4xl mx-auto py-12 px-4">
+    <div class="bg-white p-8 md:p-12 border border-gray-200 shadow-md">
+
+        <header class="border-b-4 border-black mb-8 pb-6">
+            <span class="text-red-600 font-bold uppercase tracking-widest text-sm">Data & Feiten</span>
+            <h1 class="text-4xl md:text-6xl font-black mt-2 leading-tight">Status van het Spoor</h1>
+            <p class="text-gray-500 italic mt-4">Laatste update: 5 januari 2026</p>
+        </header>
+
+        <article class="space-y-10">
+            <section>
+                <h2 class="text-2xl font-black uppercase mb-4 text-gray-900 border-l-4 border-red-600 pl-4">Aankomende Stakingen</h2>
+                <div class="bg-red-50 p-6 border border-red-200 rounded">
+                    <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+                        <div>
+                            <span class="block text-red-700 font-bold text-xl">26 jan - 30 jan 2026</span>
+                            <p class="text-gray-700 mt-1">Landelijke 5-daagse staking van alle spoorbonden.</p>
+                        </div>
+                        <span class="mt-4 md:mt-0 px-4 py-1 bg-red-600 text-white font-bold text-sm rounded-full">GEPLAND</span>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-black uppercase mb-4 text-gray-900 border-l-4 border-black pl-4">Recente Incidenten</h2>
+                <div class="grid gap-4">
+                    <div class="flex items-center justify-between p-4 bg-gray-50 border-b border-gray-200">
+                        <div class="flex-1">
+                            <span class="text-sm font-bold text-gray-500 uppercase">Vandaag</span>
+                            <h3 class="font-bold text-lg">Seinstoring Brussel-Noord</h3>
+                            <p class="text-gray-600 text-sm italic">Gemiddelde vertraging: +25 min</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center justify-between p-4 bg-gray-50 border-b border-gray-200">
+                        <div class="flex-1">
+                            <span class="text-sm font-bold text-gray-500 uppercase">4 jan 2026</span>
+                            <h3 class="font-bold text-lg">Winterellende & bevroren wissels</h3>
+                            <p class="text-gray-600 text-sm italic">Lijn Gent-Sint-Pieters naar Brugge zwaar getroffen.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center justify-between p-4 bg-gray-50 border-b border-gray-200">
+                        <div class="flex-1">
+                            <span class="text-sm font-bold text-gray-500 uppercase">Weekend 10-11 jan</span>
+                            <h3 class="font-bold text-lg">Geplande werken Mechelen</h3>
+                            <p class="text-gray-600 text-sm italic">Geen treinen tussen Mechelen en Antwerpen-Zuid.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-black text-white p-8">
+                <h2 class="text-xl font-bold uppercase mb-6 text-center tracking-widest">Punctualiteit Dec '25</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8 text-center">
+                    <div>
+                        <span class="block text-4xl font-black text-red-500">82.4%</span>
+                        <span class="text-xs uppercase text-gray-400">Op tijd</span>
+                    </div>
+                    <div>
+                        <span class="block text-4xl font-black text-red-500">4,210</span>
+                        <span class="text-xs uppercase text-gray-400">Afgeschafte treinen</span>
+                    </div>
+                    <div class="col-span-2 md:col-span-1">
+                        <span class="block text-4xl font-black text-red-500">18.6%</span>
+                        <span class="text-xs uppercase text-gray-400">Reizigersvertraging</span>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <div class="mt-12 text-center">
+            <a href="src/pages/content.html" class="text-gray-500 hover:text-black font-bold uppercase text-sm tracking-widest transition border-b-2 border-transparent hover:border-black">
+                ← Terug naar opinie
+            </a>
+        </div>
+    </div>
+</div>
+
+<footer class="py-8 text-center text-gray-400 text-sm">
+    &copy; 2026 Pendelaarsbond - De data liegt niet.
+</footer>
+
+</body>
+</html>
