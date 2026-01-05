@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>NMBS Status</title>
+</head>
+<body class="bg-gray-50">
+
+<section class="max-w-4xl mx-auto py-12 px-4">
+    <header class="border-b-4 border-black pb-6">
+        <h1 class="text-4xl md:text-5xl font-black mt-2 leading-tight text-red-600 uppercase italic">De NMBS suckt omdat:</h1>
+    </header>
+
+    <article class="mt-8 space-y-8">
+        <h2 class="text-2xl font-bold text-gray-900">Stakingen en vertragingen</h2>
+
+        <div class="bg-red-600 text-white p-6 shadow-lg transform -rotate-1">
+            <span class="font-black text-xs uppercase tracking-[0.2em]">Live Status: Kritiek</span>
+            <h3 class="text-2xl font-black mt-1 uppercase">Nationale Spoorstaking</h3>
+            <p class="mt-2 font-medium">26 t/m 30 januari 2026: Het volledige land ligt plat.</p>
+        </div>
+
+        <div class="space-y-4">
+            <h3 class="font-black uppercase text-sm text-gray-400 tracking-widest">Recente Incidenten Logboek</h3>
+
+            <div class="flex items-center bg-white border border-gray-200 p-4 rounded-lg shadow-sm">
+                <div class="w-24 flex-shrink-0">
+                    <span class="text-sm font-bold text-gray-400">01 JAN</span>
+                </div>
+                <div class="flex-grow">
+                    <p class="text-gray-900 font-bold leading-tight">Vuurwerkschade bovenleiding</p>
+                    <p class="text-xs text-orange-500 font-bold uppercase mt-1">Status: Opgelost</p>
+                </div>
+            </div>
+
+            <div class="flex items-center bg-white border border-gray-200 p-4 rounded-lg shadow-sm">
+                <div class="w-24 flex-shrink-0">
+                    <span class="text-sm font-bold text-gray-400">04 JAN</span>
+                </div>
+                <div class="flex-grow">
+                    <p class="text-gray-900 font-bold leading-tight">Hinder door vrieskou & sneeuw</p>
+                    <p class="text-xs text-red-500 font-bold uppercase mt-1">Status: Lopend</p>
+                </div>
+            </div>
+
+            <div class="flex items-center bg-white border-2 border-black p-4 rounded-lg shadow-sm">
+                <div class="w-24 flex-shrink-0">
+                    <span class="text-sm font-bold text-black">WEEKEND</span>
+                </div>
+                <div class="flex-grow">
+                    <p class="text-gray-900 font-bold leading-tight">Geplande werken Mechelen</p>
+                    <p class="text-xs text-gray-400 font-bold uppercase mt-1">Omleiding via Aarschot</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid gap-4 md:grid-cols-2">
+            <div class="bg-gray-100 p-6 border-l-4 border-black">
+                <h4 class="font-black uppercase text-sm mb-2 italic">Personeelstekort</h4>
+                <p class="text-sm text-gray-600">Treinen worden ad-hoc afgeschaft omdat er simpelweg geen conducteur beschikbaar is.</p>
+            </div>
+            <div class="bg-gray-100 p-6 border-l-4 border-black">
+                <h4 class="font-black uppercase text-sm mb-2 italic">Materiaalgebrek</h4>
+                <p class="text-sm text-gray-600">Treinstellen uit de jaren '80 zonder airco of werkende toiletten zijn nog steeds de standaard.</p>
+            </div>
+        </div>
+
+        <blockquote class="italic text-gray-400 text-center py-8 border-t border-gray-200">
+            "De trein is altijd een beetje reizen... behalve als hij niet komt."
+        </blockquote>
+    </article>
+</section>
+
+</body>
+</html>
